@@ -1,2 +1,2 @@
 # Blog
-my private blog
+my private blo
