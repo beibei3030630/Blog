@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Shawlon`s Blog
-subtitle: Yshawlon
-description: C++ | LeetCode | Algorithm 
-keywords: "被动学习"
-author: Tyzhao
+title: Beibei`s Blog
+subtitle: 
+description: Javascript| Vue | Webpack
+keywords: "努力成长"
+author: Beibei3030630
 language: zh-CN
 timezone:
 
@@ -121,7 +121,7 @@ deploy:
 - type: baidu_url_submitter
 
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/

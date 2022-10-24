@@ -10,18 +10,14 @@ menu:
   Categories:
     url: /categories
     icon:
-  Archives:
-    url: /archives
-    icon:
+  
   About:
     url: /about
     icon:
-  Friends:
-    url: /friends
-    icon:
-  Contact:
-    url: /contact
-    icon:
+  
+  # Contact:
+  #   url: /contact
+  #   icon:
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -44,7 +40,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   showTitle: false
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -168,15 +164,15 @@ text:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://muyiio-1300292673.cos.ap-chongqing.myqcloud.com/%E5%8D%9A%E5%AE%A2/%E5%A4%B4%E5%83%8F/%E5%A4%B4%E5%83%8F.jpg
-  career: 计算机科学与技术 | C++ | Algorithms
-  introduction: 一个简单的个人博客，记录一下学习过程，欢迎你来到我的小站，有不对的地方欢迎指正！有问题可以联系我，也欢迎与我交流探讨！
+  avatar: /favicon.png
+  career: 前端工程师
+  introduction:   故不积跬步无以至千里不积小流无以成江海
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     Hexo-matery-Themes:
       icon: fa-meetup
@@ -189,7 +185,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     C++:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
@@ -208,7 +204,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
@@ -389,7 +385,7 @@ reprint:
 snow:
   enable: false
 
-baidu_push: true
+baidu_push: false
 
 # Online contact 在线客服 Daovoice 参考：http://dashboard.daovoice.io
 daovoice:  # 在线客服 Daovoice 参考：http://dashboard.daovoice.io
