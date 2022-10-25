@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-type: {{ title }}
-layout: {{ title }}
+description: 
+header-img: "img/home-bg.jpg"
 ---

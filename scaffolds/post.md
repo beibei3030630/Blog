@@ -1,14 +1,9 @@
 ---
 title: {{ title }}
+subtitle:
 date: {{ date }}
-top: false
-cover: false
-password:
-toc: true
-mathjax: true
-summary:
+catalog: true
+header-img:
 tags:
 categories:
-keywords: 
-description:
 ---
