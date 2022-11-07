@@ -61,7 +61,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  margin: 30px 0;
+  margin: 15px 0;
 }
 h1,
 h2,
@@ -741,7 +741,7 @@ img::-moz-selection {
 .tags .tag {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 999em;
+  border-radius:0em;
   padding: 0 10px;
   color: #fff;
   line-height: 24px;
@@ -778,11 +778,10 @@ img::-moz-selection {
 }
 #tag_cloud a,
 #tag_cloud .tag {
-  font-size: 14px;
+  font-size: 17px;
   border: none;
   line-height: 28px;
-  margin: 0 2px;
-  margin-bottom: 8px;
+  margin: 0 8px 15px 0;
   background: #d6d6d6;
 }
 #tag_cloud a:hover,
@@ -867,7 +866,7 @@ img::-moz-selection {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 1.5em auto 1.6em auto;
+  margin: 0.5em auto 0.5em auto;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);

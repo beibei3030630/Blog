@@ -410,7 +410,7 @@ Viewer 是一个简单的 jQuery 图片预览插件. 让我们首先看一个 [d
 viewer: true
 ```
 
-### 主题模式设置
+#### 主题模式设置
 Hexo-Theme-LiveMyLife 主题暂时支持两种主题模式。
 ```yml
 # ThemeColor config

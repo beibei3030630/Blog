@@ -642,11 +642,11 @@ pre code {
   color: #404040;
 }
 
-.post-preview>.post-meta>a:hover,
+/* .post-preview>.post-meta>a:hover,
 .post-preview>.post-meta>a:focus {
   color: #0085a1;
   text-decoration: underline;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .post-preview>a>.post-title {
@@ -1045,7 +1045,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 1.5em auto 1.6em auto;
+  margin: 0.5em auto 0.5em auto;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
   -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
   -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);

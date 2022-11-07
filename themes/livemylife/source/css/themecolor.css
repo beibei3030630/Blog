@@ -2,7 +2,7 @@
 
 .body--light {
   /* Common color */
-  --common-color: #0085a1;
+  --common-color: #113f40b8;
   /* body */
   --background-color: #ffffff;
   /* header */
@@ -371,11 +371,11 @@ hr {
 }
 
 /* img */
-.post-container img {
+/* .post-container img {
   box-shadow: var(--img-shadow-color) !important;
   -moz-box-shadow: var(--img-shadow-color) !important;
   -webkit-box-shadow: var(--img-shadow-color) !important;
-}
+} */
 
 .short-about img {
   box-shadow: var(--img-about-shadow-color) !important;
@@ -403,7 +403,7 @@ hr {
 }
 
 #tag_cloud a {
-  background: var(--tag_cloud-background-color) !important;
+  background:#113f40b8;
   background-image: linear-gradient(to bottom, var(--tag_cloud-background-color)0, var(--tag_cloud-background-color2)) !important;
   color: var(--tag_cloud-color);
 }
@@ -544,6 +544,8 @@ blockquote {
 .post-container>h5,
 .post-container>h6 {
   color: var(--color-default);
+  margin-bottom: 1.5em;
+  margin-top: 3em;
 }
 
 .post-container>p {
@@ -799,7 +801,8 @@ textarea.gt-header-textarea::placeholder {
 .post-container pre,
 .post-container .highlight {
   color: var(--post-container-highlight-color);
-  background: var(--post-container-highlight-background);
+  /* background: var(--post-container-highlight-background); */
+  background: darkslategray;
 }
 
 .post-container pre code {
